@@ -1,0 +1,7 @@
+project: cicada
+target: parse-line
+
+cmds:
+  - cmd: /parse_line
+  - cmd: /parse_line_no_inst @@
+    libfuzzer: false
